@@ -1,0 +1,101 @@
+.Home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  &__Left {
+    width: 50%;
+    height: 100%;
+    background-color: #fde3d9;
+    &__Content {
+      margin: 20rem 0 0 4rem;
+      &__Heading {
+        width: 80%;
+        font-size: 42px;
+        margin-bottom: 2rem;
+        color: #3e3e3e;
+      }
+      &__Para {
+        width: 65%;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 1.5rem;
+        color: #3e3e3e;
+      }
+      &__Buttons {
+        margin-top: 7.5rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+
+        height: 5rem;
+        width: 50%;
+        &__Button-AppStore {
+          height: 55%;
+          width: 100%;
+          background: url("../../assets/AppStoreBadge.svg");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+        &__Button-GooglePlayStore {
+          height: 85%;
+          width: 100%;
+          background: url("../../assets/google-play-badge@2x.png");
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+    }
+  }
+  &__Right {
+    width: 50%;
+    height: 100%;
+
+    &__Content {
+      color: white;
+      margin: 30rem 0 0 8rem;
+      &__Heading {
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+      }
+      &__Para {
+        font-size: 16px;
+        font-weight: 300;
+        width: 40%;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+      }
+      &__SlideButtons {
+        display: flex;
+        gap: 10px;
+        &__Button {
+          height: 5px;
+          width: 5px;
+          border: 2px solid #ffffff;
+          border-radius: 50%;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+.clicked {
+  background-color: #ffffff;
+}
+
+.BackgroundImage1 {
+  background: url("../../assets/photo-1563460716037-460a3ad24ba9@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.BackgroundImage2 {
+  background: url("../../assets/Group@2x.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

@@ -1,0 +1,11 @@
+.Links {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.5rem;
+  &__Link {
+    padding: 0 1rem;
+    color: #ffffff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
